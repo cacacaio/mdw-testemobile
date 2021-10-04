@@ -1,5 +1,4 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Movies } from '../../types'
+import { createSlice } from '@reduxjs/toolkit'
 import { movies } from '../initials/movies'
 
 const movieSlice = createSlice({

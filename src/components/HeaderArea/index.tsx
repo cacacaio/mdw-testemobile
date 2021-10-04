@@ -1,8 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons'
-import { useNavigation } from '@react-navigation/native'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import React, { useState } from 'react'
 import { Modal, TouchableOpacity } from 'react-native'
-import { Text } from '../../screens/Personagens/styles'
+import { useDispatch } from 'react-redux'
+import { logout } from '../../redux/slicers/authSlice'
 import MarvelLogo from '../MarvelLogo'
 import { HeaderAreaStyled, ModalHeader, NavText } from './styles'
 
@@ -11,10 +12,11 @@ import { HeaderAreaStyled, ModalHeader, NavText } from './styles'
  */
 export function HeaderArea() {
   const [modalOpen, setModalOpen] = useState(false)
-  const navigation = useNavigation()
-  const handleNavigate = () => {
+  const dispatch = useDispatch()
+  const handleNavigate = async () => {
     setModalOpen(false)
-    navigation.navigate('Login')
+    await AsyncStorage.removeItem('login')
+    dispatch(logout())
   }
 
   return (

@@ -1,4 +1,3 @@
-import { GlyphMap } from '@expo/vector-icons/build/createIconSet'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import React, { useEffect } from 'react'
 import { useState } from 'react'

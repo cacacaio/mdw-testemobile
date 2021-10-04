@@ -1,6 +1,5 @@
 import React from 'react'
 import { View } from 'react-native'
-import { RootState } from '../../../redux/store/store'
 import { Text } from '../../../screens/Personagens/styles'
 import { FeaturedCharacters, FeaturedMovies } from '../../../types'
 import {

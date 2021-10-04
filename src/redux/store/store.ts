@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
+import authSlice from '../slicers/authSlice'
 import characterReducer from '../slicers/characterSlice'
 import comicSlice from '../slicers/comicSlice'
 import featuredCharactersSlice from '../slicers/featuredCharacterSlice'
@@ -14,6 +15,7 @@ export const store = configureStore({
     movies: moviesSlice,
     comics: comicSlice,
     featuredComics: featuredComicsSlice,
+    auth: authSlice,
   },
 })
 

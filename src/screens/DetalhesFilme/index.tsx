@@ -1,6 +1,6 @@
 import Ionicons from '@expo/vector-icons/Entypo'
 import React, { useState } from 'react'
-import { Image, ListRenderItem, Modal, StyleSheet, View } from 'react-native'
+import { ListRenderItem, Modal, StyleSheet, View } from 'react-native'
 import { FlatList } from 'react-native-gesture-handler'
 import { DetailsCard } from '../../components/Details/DetailsCard'
 import { TitleDetails } from '../../components/Details/Title'
