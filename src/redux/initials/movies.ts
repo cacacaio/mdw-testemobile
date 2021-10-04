@@ -1,0 +1,73 @@
+export const movies = [
+  {
+    id: 1,
+    name: 'Homem de Ferro',
+    description:
+      'Tony Start (Robert Downey Jr.) é um industrial bilionário, que também é um brilhante inventor, ao ser sequestrado...',
+    image: require('../../assets/images/Filmes/ironmanG.png'),
+    image2: null,
+    streaming: [],
+    rating: 4,
+    launchDate: 2008,
+    cronologyDate: 2009,
+  },
+  {
+    id: 2,
+    name: 'Homem de Ferro 2',
+    description:
+      'O mundo já sabe que o inventor bilionário Tony Stark (Robert Downey Jr.) é o super-herói blindado Homem de Ferro...',
+    image: require('../../assets/images/Filmes/ironman2G.png'),
+    image2: null,
+    streaming: [],
+    rating: 4,
+    launchDate: 2010,
+    cronologyDate: 2011,
+  },
+  {
+    id: 3,
+    name: 'Thor',
+    description:
+      'Quando é banido do reino de Asgard e exilado na Terra, o arrogante guerreiro Thor (Chris Hemsworth) é o brigado a luta para reaver seus poderes perdidos.',
+    image: require('../../assets/images/Filmes/thorG.png'),
+    image2: require('../../assets/images/Filmes/thorM.png'),
+    streaming: [],
+    rating: 4,
+    launchDate: 2011,
+    cronologyDate: 2011,
+  },
+  {
+    id: 4,
+    name: 'Capitão América',
+    description:
+      'Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo.',
+    image: require('../../assets/images/Filmes/capitaoG.png'),
+    image2: null,
+    streaming: [require('../../assets/images/Comics/sellers/amazon.png')],
+    rating: 4,
+    launchDate: 2011,
+    cronologyDate: 1943,
+  },
+  {
+    id: 5,
+    name: 'Vingadores - Ultimato',
+    description: null,
+    image: null,
+    image2: require('../../assets/images/Filmes/ultimatoM.png'),
+    streaming: [],
+    rating: 4,
+    launchDate: 2019,
+    cronologyDate: 2018,
+  },
+  {
+    id: 5,
+    name: 'Capitã Marvel',
+    description:
+      'Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.',
+    image: require('../../assets/images/Filmes/marvelG.png'),
+    image2: null,
+    streaming: [],
+    rating: 4,
+    launchDate: 2019,
+    cronologyDate: 1995,
+  },
+]
