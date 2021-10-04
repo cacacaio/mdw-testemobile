@@ -111,7 +111,7 @@ export function DetalhesFilme({ navigation }) {
               ></FlatList>
               <Text>Avaliações dos Fãs</Text>
               <CardFooter>
-                <RatingStyled />
+                <RatingStyled defaultRating={4} />
                 <CardExit onPress={() => setModalOpen(false)} />
               </CardFooter>
             </CardContent>

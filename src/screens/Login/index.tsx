@@ -1,6 +1,6 @@
 import React from 'react'
-import {Text} from 'react-native'
-import {SafeAreaView} from 'react-native-safe-area-context'
+import { Text } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 import CheckboxLogin from '../../components/Login/CheckboxLogin'
 import Input from '../../components/Login/Input'
 import LoginButton from '../../components/Login/LoginButton'
@@ -16,9 +16,9 @@ import {
   SubTitle,
 } from './styles'
 
-export default function Login({navigation}) {
+export default function Login({ navigation }) {
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{ flex: 1 }}>
       <LoginContainer>
         <MarvelLogo />
         <FormHeader>
@@ -34,7 +34,9 @@ export default function Login({navigation}) {
           <CheckboxLogin />
           <SubTitle>
             É novo(a) aqui?
-            <Text style={{color: 'red', fontWeight: 'bold'}}>Cadastre-se</Text>
+            <Text style={{ color: 'red', fontWeight: 'bold' }}>
+              Cadastre-se
+            </Text>
           </SubTitle>
         </FormBody>
       </LoginContainer>
